@@ -45,6 +45,11 @@ gem 'rails_best_practices'
 gem 'awesome_print'
 gem 'rails_admin'
 gem 'pundit'
+gem 'sidekiq'
+gem 'delayed_job'
+gem 'clockwork'
+gem 'gibbon'
+gem 'sendgrid-ruby'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
