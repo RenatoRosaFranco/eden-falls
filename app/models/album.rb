@@ -3,7 +3,7 @@ class Album < ApplicationRecord
   self.table_name = 'albums'
   self.primary_key = 'id'
 
-  has_many :musics, dependent: :destroy
+  has_many   :musics, dependent: :destroy
   belongs_to :user
 
   validates :thumbnail,
