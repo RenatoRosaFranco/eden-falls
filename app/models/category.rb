@@ -5,5 +5,5 @@ class Category < ApplicationRecord
 
   has_many :posts, dependent: :nullify
   belongs_to :category
-  belogns_to :user
+  belongs_to :user
 end
