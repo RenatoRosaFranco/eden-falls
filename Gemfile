@@ -51,6 +51,8 @@ gem 'clockwork'
 gem 'gibbon'
 gem 'sendgrid-ruby'
 gem 'rdoc'
+gem 'rack-cors'
+gem 'better_errors'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

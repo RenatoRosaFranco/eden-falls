@@ -11,7 +11,7 @@ class Post < ApplicationRecord
              uniqueness: false,
              allow_blank: false,
              length: { minimum: 3, maximum: 245 }
-    
+
   validates  :title,
              presence: true,
              uniqueness: false,
@@ -23,13 +23,13 @@ class Post < ApplicationRecord
              uniqueness: false,
              allow_blank: false,
              length: { minimum: 3, maximum: 245 }
-  
+
   validates  :content,
              presence: true,
              uniqueness: false,
              allow_blank: false,
              length: { minimum: 3, maximum: 10_000 }
-  
+
   validates  :published,
              presence: false,
              allow_blank: true
@@ -39,12 +39,12 @@ class Post < ApplicationRecord
              uniqueness: false,
              allow_blank: false,
              length: { minimum: 3, maximum: 145 }
-  
+
   validates  :category_id,
              presence: true,
              uniqueness: false,
              allow_blank: false
-  
+
   validates  :user_id,
              presence: true,
              uniqueness: false,
