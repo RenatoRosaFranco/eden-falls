@@ -50,6 +50,7 @@ gem 'delayed_job'
 gem 'clockwork'
 gem 'gibbon'
 gem 'sendgrid-ruby'
+gem 'rdoc'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
